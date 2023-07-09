@@ -71,6 +71,7 @@ h1{
 h2{
     font-size: 32px;
     text-align: center;
+    margin: 10px 10px;
 }
 
 p{
@@ -121,14 +122,14 @@ section contact{
 }
 form{
     max-width: 600px;
-    align-items: center;
+    margin:0 auto;
 }
 
 label{
     display:inline-block;
     flex-direction: column;
     justify-content: center;
-    padding: 8px;
+    margin-bottom: 10px;
 }
 
 input,
@@ -136,12 +137,12 @@ textarea{
     display: inline-block;
     flex-direction: column;
     justify-content: center;
-    width: 80%;
-    padding: 15px;
+    width: 95%;
+    padding: 10px;
     border: 2px solid;
     border-radius: 5px;
     margin: top 10px; 
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-bottom: #180d16;
 }
 
@@ -150,10 +151,10 @@ button[type="submit"]{
     background-color: #af599e;
     color: #fbfbfb;
     padding: 15px;
-    font-size: 15px;
+    font-size: 15px 20px;
     flex-direction: column;
     border-radius: 9px;
-    margin-top: 10px;
+    margin-top: ;
 }
 
 .icons{
@@ -164,7 +165,7 @@ button[type="submit"]{
     justify-content: space-around;
     align-items: center;
 }
-.icons{
+.iconos{
     margin: 0px 30px 0px 10px;    
 }
 footer{
@@ -175,19 +176,18 @@ footer{
     padding: 10px;
 }
 
-@media (max-weidth:770px){
+@media (max-width:770px){
     header{
         flex-direction: column;
         text-align: center;
     }
 }
-    section{
-        min-height: ;
-    }
     button[type="submit"]:hover{
         background-color:#c481b3;
     }
     .icons{
-        padding: 20%;
+        padding: 15%;
     }
-    
+    form{
+        max-width: 80%;
+    }
